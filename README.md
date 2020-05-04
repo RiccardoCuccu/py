@@ -20,8 +20,25 @@ spam pams amsp mspa
 ```
 
 ## Exercise 03
-Consider the string «abcdefghijk» and list the odd character by using len and range.
+Consider the string "abcdefghijk" and list the odd character by using len and range.
 The output should be:
 ```
 a c e g i k
 ```
+
+## Exercise 04
+Write a program that calculates the number of characters in a string entered from the command line.
+
+Entering for example the string "abcdefgabc", the program must generate:
+```
+a,2
+c,2
+b,2
+e,1
+d,1
+g,1
+f,1
+```
+
+## Exercise 05
+Write a program that can check whether any number (entered from the keyboard) is prime or not.
