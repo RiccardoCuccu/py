@@ -42,3 +42,6 @@ f,1
 
 ## Exercise 05
 Write a program that can check whether any number (entered from the keyboard) is prime or not.
+
+## Exercise 06
+List the ".c" and ".h" files found in the directory
