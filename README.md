@@ -44,4 +44,28 @@ f,1
 Write a program that can check whether any number (entered from the keyboard) is prime or not.
 
 ## Exercise 06
-List the ".c" and ".h" files found in the directory
+List the ".c" and ".h" files found in the directory.
+
+## Exercise 07
+Create a program that make a simple calculator that can add, subtract, multiply and divide using functions.
+
+## Exercise 08
+Repeat the exercise 07 but now use lambda functions.
+
+## Exercise 10
+Write a Python program to convert 20 int random number (form 0 to 2000) to a roman numeral.
+Define three functions:
+- **symbolDefInit()**: definition of GLOBAL symbols
+- **generateRandomInteger()**: return random int
+- **conversionToRoman(intNum)**: return roman num
+
+Table:
+```
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+```
