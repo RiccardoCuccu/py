@@ -52,7 +52,7 @@ Create a program that make a simple calculator that can add, subtract, multiply 
 ## Exercise 08
 Repeat the exercise 07 but now use lambda functions.
 
-## Exercise 10
+## Exercise 09
 Write a Python program to convert 20 int random number (form 0 to 2000) to a roman numeral.
 Define three functions:
 - **symbolDefInit()**: definition of GLOBAL symbols
