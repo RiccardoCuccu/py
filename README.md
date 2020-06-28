@@ -1,6 +1,9 @@
 # py
 Python exercises
 
+## Exercise 00
+Print "Hello World!" in five different ways.
+
 ## Exercise 01
 Given a dictionary:
 ```
@@ -20,10 +23,11 @@ spam pams amsp mspa
 ```
 
 ## Exercise 03
-Consider the string "abcdefghijk" and list the odd character by using len and range.
+Consider the string "abcdefghijk", list the odd character by using len and range and list the even character using indexing and slicing.
 The output should be:
 ```
 a c e g i k
+b d f h j
 ```
 
 ## Exercise 04
@@ -69,3 +73,16 @@ C = 100
 D = 500
 M = 1000
 ```
+
+## Exercise 10
+Given the date of "2018-05-12" print the time difference with today's date.
+
+## Exercise 11
+Shows that a local variable cannot be seen outside the function in which it is declared but exclusively inside it.
+
+## Exercise 12
+Shows that a nonlocal variable can also be modified by an internal function.
+
+## Exercise 13
+Print a list of all files and a list of the .c and .h files of the "work" directory.
+
