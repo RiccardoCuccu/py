@@ -23,7 +23,7 @@ spam pams amsp mspa
 ```
 
 ## Exercise 03
-Consider the string "abcdefghijk", list the odd character by using len and range and list the even character using indexing and slicing.
+Consider the string "abcdefghijk", list the odd character by using `len()` and `range()` and list the even character using indexing and slicing.
 The output should be:
 ```
 a c e g i k
@@ -85,4 +85,10 @@ Shows that a nonlocal variable can also be modified by an internal function.
 
 ## Exercise 13
 Print a list of all files and a list of the .c and .h files of the "work" directory.
+
+## Exercise 14
+Print the string "The Lord of the Rings" for a random number of times from 1 to 20.
+
+## Exercise 15
+Read and print the ./work/main.c file three times using the `read()`, `readline()` and `readlines()` functions.
 
