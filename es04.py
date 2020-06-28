@@ -10,7 +10,7 @@ D = {}
 #		D[char] += 1
 
 for char in s:
-	D[char] = D.get(char, 0)+1			# return 0+1 if the key is not found
+	D[char] = D.get(char, 0)+1		# return 0+1 if the key is not found
 
 for (key, value) in D.items():
 	print(key + ',' + str(value))
