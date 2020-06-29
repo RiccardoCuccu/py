@@ -48,7 +48,7 @@ f,1
 Write a program that can check whether any number (entered from the keyboard) is prime or not.
 
 ## [Exercise 06](https://github.com/RiccardoCuccu/py/blob/master/exercises/es06.py)
-List the ".c" and ".h" files found in the directory.
+List the *.c* and *.h* files found in the directory.
 
 ## [Exercise 07](https://github.com/RiccardoCuccu/py/blob/master/exercises/es07.py)
 Create a program that make a simple calculator that can add, subtract, multiply and divide using functions.
@@ -84,10 +84,10 @@ Shows that a local variable cannot be seen outside the function in which it is d
 Shows that a nonlocal variable can also be modified by an internal function.
 
 ## [Exercise 13](https://github.com/RiccardoCuccu/py/blob/master/exercises/es13.py)
-Print a list of all files and a list of the .c and .h files of the "work" directory.
+Print a list of all files and a list of the *.c* and *.h* files of the *./work* directory.
 
 ## [Exercise 14](https://github.com/RiccardoCuccu/py/blob/master/exercises/es14.py)
 Print the string "The Lord of the Rings" for a random number of times from 1 to 20.
 
 ## [Exercise 15](https://github.com/RiccardoCuccu/py/blob/master/exercises/es15.py)
-Read and print the ./work/main.c file three times using the `read()`, `readline()` and `readlines()` functions.
+Read and print the *./work/main.c* file three times using the `read()`, `readline()` and `readlines()` functions.
