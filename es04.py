@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-s = "abcdefgabc"
+s = input("Enter a string of characters: ")
+#s = "abcdefgabc"
 D = {}
 
 #for char in s:
@@ -12,5 +13,5 @@ D = {}
 for char in s:
 	D[char] = D.get(char, 0)+1		# return 0+1 if the key is not found
 
-for (key, value) in D.items():
+for (key, value) in sorted(D.items()):		# print the list in alphabetical order
 	print(key + ',' + str(value))
