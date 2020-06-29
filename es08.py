@@ -14,15 +14,23 @@ print("Options:\n\
 - d: division")
 op = input("Enter the letter corresponding to the operation you want to perform: ")
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-
 if op == "a":
+	a = int(input("Enter the first addend: "))
+	b = int(input("Enter the second addend: "))
 	print("Result:", add(a, b))
 elif op == "s":
+	a = int(input("Enter the minuend: "))
+	b = int(input("Enter the subtrahend: "))
 	print("Result:", sub(a, b));
 elif op == "m":
+	a = int(input("Enter the first factor: "))
+	b = int(input("Enter the second factor: "))
 	print("Result:", mul(a, b));
 elif op == "d":
-	print("Result:", div(a, b));
+	a = int(input("Enter the dividend: "))
+	b = int(input("Enter the divisor: "))
+	if b == 0:
+		print("Error: you can't divide by zero!")
+	else:
+		print("Result:", div(a, b));
 else: print("Error: operation not supported!")	

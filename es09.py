@@ -6,30 +6,30 @@ def symbolDefInit():
 	global val
 	global syb
 
-	val = [
+	val = [						# table of values
 		1000, 900, 500, 400,
 		100, 90, 50, 40,
 		10, 9, 5, 4,
 		1
 		]
 
-	syb = [
+	syb = [						# table of symbols
 		"M", "CM", "D", "CD",
 		"C", "XC", "L", "XL",
 		"X", "IX", "V", "IV",
 		"I"
 		]
 
-def generateRandomInteger():
+def generateRandomInteger():				# random integer generator
 	n = random.randint(0, 2000)
 	return n
 
-def conversionToRoman(intNum):
+def conversionToRoman(intNum):				# converter to roman numerals
 	roman_numeral = ''
-	for i in range(0, len(val)):
-		value = int(intNum / val[i])
-		intNum = intNum % val[i]
-		roman_numeral += value*syb[i]
+	for i in range(0, len(val)):			# cycle through the whole table of values
+		value = int(intNum / val[i])		# calculates how many times val[i] can fit inside the number considered
+		intNum = intNum % val[i]		# calculate the reminder
+		roman_numeral += value*syb[i]		# append the corresponding symbol for the calculated number of occurrences
 	return roman_numeral
 
 ### MAIN ###

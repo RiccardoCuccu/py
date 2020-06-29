@@ -13,7 +13,6 @@ def sub():
 def mul():
 	a = int(input("Enter the first factor: "))
 	b = int(input("Enter the second factor: "))
-	#return a*b
 	print("Result:", a*b)
 
 def div():
