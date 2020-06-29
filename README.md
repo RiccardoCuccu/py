@@ -1,7 +1,7 @@
 # py
 Python exercises
 
-## Exercise 00
+## [Exercise 00](https://github.com/RiccardoCuccu/py/blob/master/es00.py)
 Print "Hello World!" in five different ways.
 
 ## Exercise 01
