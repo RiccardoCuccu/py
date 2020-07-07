@@ -92,5 +92,5 @@ Print the string "The Lord of the Rings" for a random number of times from 1 to 
 ## [Exercise 15](https://github.com/RiccardoCuccu/py/blob/master/exercises/es15.py)
 Read and print the *./work/main.c* file three times using the `read()`, `readline()` and `readlines()` functions.
 
-## [Exercise 15](https://github.com/RiccardoCuccu/py/blob/master/exercises/es16.py)
+## [Exercise 16](https://github.com/RiccardoCuccu/py/blob/master/exercises/es16.py)
 Create a "Square" class, with a "side" instance variable and a method that calculates the area.
