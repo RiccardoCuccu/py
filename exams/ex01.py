@@ -2,8 +2,8 @@
 
 import sys
 
-def converter(n):
-									# conversione in numero
+def converter(n):									# conversione in numero
+
 	if n == "zero": ret = '0'
 	elif n == "uno": ret = '1'
 	elif n == "due": ret = '2'
@@ -20,8 +20,8 @@ def converter(n):
 
 	return ret
 
-#filename = input("Inserire il nome del file da analizzare: ")
-filename = "./work/stringnum.txt"
+filename = input("Inserire il nome del file da analizzare: ")
+#filename = "./work/stringnum.txt"
 
 sum=0
 S=""
