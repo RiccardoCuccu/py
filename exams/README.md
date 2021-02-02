@@ -1,6 +1,6 @@
 # Python exams
 The texts of the exams contained here were taken from the [lecture notes](http://www.diegm.uniud.it/schaerf/Fondamenti/dispensa.pdf) of the Foundations of Computer Science of the course of Mechanical Engineering (A.A. 2013-14) of the University of Udine and are for this reason in Italian.<br/>
-These exams have also been designed to be performed using the C language but will be performed here using the Python language.
+These exams have also been designed to be performed using the C language but will be performed here using the Python language, the C language version is available in [this repository](https://github.com/RiccardoCuccu/c).
 
 ## [Exam 01](https://github.com/RiccardoCuccu/py/blob/master/exams/ex01.py)
 Un file contiene una sequenza (di lunghezza ignota) di numeri interi positivi, uno per riga. I numeri sono scritti in lettere cifra per cifra, e sono terminati dalla parola `stop`. Come esempio si consideri il seguente file:
