@@ -29,6 +29,8 @@ Si scriva una funzione C che dati come parametri un vettore di partite e la sua 
 - `-1` se il giocatore 2 ha vinto più partite del giocatore 1;
 - `0` in caso di pari numero di vittorie.
 
+Si scriva infine la funzione `main` necessaria per verificare la correttezza della funzione precedente.
+
 ## [Exam 03](https://github.com/RiccardoCuccu/py/blob/master/exams/ex03.py)
 Un file contiene una sequenza (di lunghezza ignota) di studenti iscritti per una prova d'esame. Ogni riga del file contiene la matricola, il nome, il cognome e l'anno di corso di uno studente, più un eventuale commento. Come esempio si consideri il seguente file.
 ```
