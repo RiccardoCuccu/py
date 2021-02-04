@@ -25,18 +25,18 @@ M = int(M)								# conversione da stringa ad intero (colonne)
 fout.write("%d %d\n" % (N+2, M+2))					# scrittura della prima riga del file di output
 
 for m in range(M+2):
-	fout.write("255 255 255\n")					# scrittura prima riga matrice (pixel neri)
+	fout.write("255 255 255\n")					# scrittura prima riga matrice (pixel bianchi)
 
 for n in range(N):
-	fout.write("255 255 255\n")					# scrittura prima colonna matrice (pixel neri)
+	fout.write("255 255 255\n")					# scrittura prima colonna matrice (pixel bianchi)
 	for m in range(M):
 		R, G, B = fin.readline().split()			# estrazione del valore dei pixel
 		BN = (int(R) + int(G) + int(B)) / 3			# conversione in b/n
 		fout.write("%d %d %d\n" % (BN, BN, BN))			# scrittura pixel intermedi
-	fout.write("255 255 255\n")					# scrittura ultima colonna matrice (pixel neri)
+	fout.write("255 255 255\n")					# scrittura ultima colonna matrice (pixel bianchi)
 
 for m in range(M+2):
-	fout.write("255 255 255\n")					# scrittura ultima riga matrice (pixel neri)
+	fout.write("255 255 255\n")					# scrittura ultima riga matrice (pixel bianchi)
 
 fin.close()
 fout.close()
