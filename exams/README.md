@@ -210,3 +210,30 @@ S 10           | S 10           | S 10           |
 ---------------+----------------+----------------+
 ESEMPIO 1      | ESEMPIO 2      | ESEMPIO 3      |
 ```
+## [Exam 09 - 23/07/2001](https://github.com/RiccardoCuccu/py/blob/master/exams/ex09.py)
+Un dato linguaggio di programmazione prevede l'inserimento di commenti nel codice sorgente mediante il carattere `#` che deve precedere il testo del commento. Il commento termina alla fine della riga. Come esempio si consideri il seguente file.
+```
+# questo è un commento
+start:	xor r0 r0	# questo è un altro commento
+	mv r1 r2	# ecc.
+# inizia il ciclo
+loop:	ldbr r3 r2	# copia in R3 l'i-esimo carattere della stringa
+	jmpz end	# se vale zero ('\0') la stringa è finita
+	inc r0		# incrementa il contatore
+	inc r2		# incrementa il puntatore
+	jmp loop	# ripete
+end:	ret
+# (commento) fine del programma
+```
+
+Si scriva una funzione C che riceva come parametro il nome del file sorgente contenente i commenti, che ha estensione .tic, e scriva un file con il medesimo nome ma estensione .toc contenente soltanto tutte le istruzioni e non i commenti. Il file risultante dall'esempio sarà:
+```
+start:	xor r0 r0
+	mv r1 r2
+loop:	ldbr r3 r2
+	jmpz end
+	inc r0
+	inc r2
+	jmp loop
+end:	ret
+```
